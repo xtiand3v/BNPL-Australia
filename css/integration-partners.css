@@ -1,0 +1,132 @@
+.photo-cont-item {
+    display: flex;
+    width: calc(380px * 6);
+}
+
+.photo-cont-item img {
+    width: 160px;
+    height: 110px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 16px;
+}
+
+
+/*Animations*/
+
+@keyframes scroller {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX( calc(-380px * 6));
+    }
+}
+
+@keyframes scrollers {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX( calc(-380px * 6));
+    }
+}
+
+
+/* @keyframes scroller1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX( calc(380px * 6));
+    }
+}
+
+@keyframes scrollers1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX( calc(600px * 6));
+    }
+} */
+
+
+/*Every row*/
+
+.animation-1 {
+    animation: scroller 10s linear infinite;
+    display: flex;
+    width: calc(400px * 12);
+}
+
+.animation-2 {
+    animation: scrollers 10s linear infinite;
+    display: flex;
+    width: calc(330px * 12);
+}
+
+
+/* 
+.animation-3 {
+    animation: scroller1 10s linear infinite;
+    display: flex;
+    width: calc(380px * 12);
+}
+
+.animation-4 {
+    animation: scrollers1 10s linear infinite;
+    display: flex;
+    width: calc(380px * 12);
+} */
+
+
+/*All selected images*/
+
+.photo-1 {
+    background-image: url(../img/integration-partners/Visa.png);
+}
+
+.photo-2 {
+    background-image: url(../img/integration-partners/Mastercard.png);
+}
+
+.photo-3 {
+    background-image: url(../img/integration-partners/AmericanExpress.png);
+}
+
+.photo-4 {
+    background-image: url(../img/integration-partners/JCB.png);
+}
+
+.photo-5 {
+    background-image: url(../img/integration-partners/DinersClubInternational.png);
+}
+
+.photo-6 {
+    background-image: url(../img/integration-partners/DiscoverNetwork.png);
+}
+
+.photo-7 {
+    background-image: url(../img/integration-partners/Visa.png);
+}
+
+.photo-8 {
+    background-image: url(../img/integration-partners/DinersClubInternational.png);
+}
+
+.photo-9 {
+    background-image: url(../img/integration-partners/AmericanExpress.png);
+}
+
+.photo-10 {
+    background-image: url(../img/integration-partners/Mastercard.png);
+}
+
+.photo-11 {
+    background-image: url(../img/integration-partners/JCB.png);
+}
+
+.photo-12 {
+    background-image: url(../img/integration-partners/DiscoverNetwork.png);
+}
